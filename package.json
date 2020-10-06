@@ -12,5 +12,8 @@
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.19.0"
+  },
+  "devDependencies": {
+    "http-proxy-middleware": "^1.0.5"
   }
 }
