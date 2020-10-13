@@ -2,18 +2,24 @@
   "name": "proxy",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "nodemon ./server/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Glity/photo-gallery-proxy.git"
+  },
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "body-parser": "^1.19.0"
+  "bugs": {
+    "url": "https://github.com/Glity/photo-gallery-proxy/issues"
   },
-  "devDependencies": {
-    "http-proxy-middleware": "^1.0.5"
+  "homepage": "https://github.com/Glity/photo-gallery-proxy#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "http-proxy-middleware": "^1.0.5",
+    "nodemon": "^2.0.4"
   }
 }
